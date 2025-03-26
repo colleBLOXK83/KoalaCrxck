@@ -1,0 +1,17 @@
+Before you run the script outside of an IDE, make sure to be aware of the following points:
+
+- For Port Scanner you NEED Admin Rights
+- You need to install the following Python Modules:
+	-pyfiglet
+	-termcolor
+	-pynput
+	-sqlite3
+	-requests
+	-whois
+(To Install, Press WIN+R and enter the word "cmd". Press enter and enter "pip install ModuleNameHere" for every Module)
+(Or in one more: "pip install pyfiglet termcolor pynput requests whois")
+
+Using ngrok:
+	open cmd in explorer
+	ngrok http 5000 eingeben
+	(if tr0jan on second pc: start flask server aswell)
